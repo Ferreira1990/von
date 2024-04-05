@@ -1,0 +1,11 @@
+.boxnavbarbrand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Iconheadervon{
+    width: 35px;
+    margin-right: 10px;
+    filter: drop-shadow(2px 2px rgba(0, 0, 0, 0.8));
+}

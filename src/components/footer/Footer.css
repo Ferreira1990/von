@@ -1,0 +1,47 @@
+.Boxfooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    background-image: url(../../assets/yiyo.JPG);
+    background-position: center;
+    background-size: cover;
+}
+
+.Footertitle{
+    color: white;
+    margin: 50px 0 0 0 ;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+}
+
+.Footerlogo img{
+    width: 200px;
+    margin-bottom: 150px;
+}
+
+.Derechos{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.Derechos h4{
+    color: white;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+
+@media (max-width:700px){
+    .Derechos h4{
+       font-size: 16px;
+    }
+}
+
+@media (max-width:450px){
+    .Derechos h4{
+       font-size: 12px;
+       margin: 0 20px;
+    }
+}
