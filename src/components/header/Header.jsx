@@ -14,16 +14,16 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">Home</a>
+                <a className="nav-link active" aria-current="page" href="">Home</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Quienes Somos</a>
+                <a  className="nav-link" href="#quienes">Quienes Somos</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Servicios</a>
+                <a className="nav-link" href="#servicios">Servicios</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Contacto</a>
+                <a className="nav-link" href="#contactox">Contacto</a>
               </li>
             </ul>
           </div>

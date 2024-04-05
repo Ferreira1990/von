@@ -3,9 +3,9 @@ import '../../components/body/Quienes.css'
 
 const Quienes = () => {
   return (
-   <div className='Boxquienes'>
+   <div id='quienes' className='Boxquienes'>
     <div className='Quienesuno'>
-        <h1 data-aos="fade-right" data-aos-duration="2500">Quienes Somos?</h1>
+        <h1  data-aos="fade-right" data-aos-duration="2500">Quienes Somos?</h1>
     </div>
     <div className='Quienesdos'>
         <h4  data-aos="fade-left" data-aos-duration="2500"><span className='Spanvon'>Von Plötz</span> es una empresa
