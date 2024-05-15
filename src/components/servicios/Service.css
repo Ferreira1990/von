@@ -36,6 +36,10 @@
   color: white!important;
 }
 
+.swiper-pagination-bullet-active{
+  background-color: rgb(255, 0, 0)!important;
+}
+
 
 .swiper-slide {
   display: flex;
