@@ -24,6 +24,19 @@
 
 }
 
+.swiper-button-prev{
+  color: white!important;
+}
+
+.swiper-button-prev{
+  color: white!important;
+}
+
+.swiper-button-next{
+  color: white!important;
+}
+
+
 .swiper-slide {
   display: flex;
   justify-content: center;

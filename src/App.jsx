@@ -1,5 +1,6 @@
 import './App.css'
 import Quienes from './components/body/Quienes'
+import Equip from './components/equipo/Equip'
 import Footer from './components/footer/Footer'
 import Header from './components/header/Header'
 import Primera from './components/main/Primera'
@@ -13,6 +14,7 @@ function App() {
     <Primera />  
     <Quienes /> 
     <Service />
+    <Equip/>
     <Footer />
     </>
   )

@@ -1,0 +1,64 @@
+.Containerequip{
+    background-image: url(../../assets/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0 50px 0;
+}
+
+.Boxequip h1{
+    margin: 0;
+
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+
+}
+
+.Containerimgequip{
+    display: flex;
+    justify-content: center;
+}
+
+.Containerimgequip img{
+    margin: 5px 10px;
+}
+
+.Containerimgequiptwo{
+    display: flex;
+    justify-content: center;
+}
+
+.Containerimgequiptwo img{
+    margin: 5px 10px;
+}
+
+.Boxequip p{
+    color: white;
+    font-style: italic;
+    font-size: 12px;
+    max-width: 600px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.workera{
+    width: 200px;
+    border-radius: 15px;
+}
+
+
+@media (max-width:600px){
+    .workera{
+        width: 100px;
+    }
+    .Boxequip p{
+        font-size: 10px;
+        margin: 10px 15px 30px 15px;
+    }
+
+}
