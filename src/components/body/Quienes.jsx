@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../components/body/Quienes.css'
-import video from '../../assets/von.mp4'
+
 
 const Quienes = () => {
   return (
@@ -21,12 +21,11 @@ const Quienes = () => {
               fabricación y pintura para hogares y empresas.</h4>
     </div>
 
-    <div className='Moviepresentation' >
-    <video data-aos="zoom-out" data-aos-duration="2500" src={video} autoPlay loop muted>
+    <div data-aos="zoom-out" data-aos-duration="2500" className='Moviepresentation'>
+    <iframe src="https://www.youtube.com/embed/EgQmPFX0uC0?autoplay=1&loop=1&playlist=EgQmPFX0uC0" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
 
-    </video>
-  
-    </div>
+</div>
+
 
 
       
